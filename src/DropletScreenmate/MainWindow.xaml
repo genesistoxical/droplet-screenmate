@@ -1,0 +1,12 @@
+﻿<Window x:Class="DropletScreenmate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DropletScreenmate"
+        mc:Ignorable="d"        
+        Title="MainWindow" SizeToContent="WidthAndHeight" Height="128" Width="128" Background="{x:Null}" WindowStyle="None" AllowsTransparency="True" MouseDown="Window_MouseDown" Topmost="True" ShowInTaskbar="False" Loaded="Window_Loaded" ResizeMode="NoResize" Closing="Window_Closing" Icon="/icon.ico">
+    <Grid Width="128" Height="128">
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="128" VerticalAlignment="Bottom" Width="128" Stretch="Fill" UseLayoutRounding="True" SnapsToDevicePixels="True" MouseLeftButtonUp="Image_MouseLeftButtonUp" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+    </Grid>
+</Window>
